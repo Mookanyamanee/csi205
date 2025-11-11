@@ -22,25 +22,25 @@ const Animation = () => {
             }
             document.getElementById(img).classList.add("active-btn")
             if (img == "basketball"){
-                document.getElementById("ball").style.backgroundImage = "url(./img/basketball.png)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/basketball.PNG)"
             }
             if (img == "volleyball"){
-                document.getElementById("ball").style.backgroundImage = "url(./img/volleyball.webp)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/volleyball.WEBP)"
             }
             if (img == "none"){
                 document.getElementById("ball").style.backgroundImage = "none"
             }
             if (img == "football"){
-                document.getElementById("ball").style.backgroundImage = "url(./img/football.jpg)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/football.JPG)"
             }
             if (img == "cartoon"){
-                document.getElementById("ball").style.backgroundImage = "url(./img/cartoon.jpg)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/cartoon.JPG)"
             }
             if (img == "logo"){
-                document.getElementById("ball").style.backgroundImage = "url(./img/logo.jpg)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/logo.JPG)"
             }
             if (img == "human"){
-                document.getElementById("ball").style.backgroundImage = "url(./img/human.jpg)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/human.JPG)"
             }
             
         }
