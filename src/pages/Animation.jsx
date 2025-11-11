@@ -22,25 +22,25 @@ const Animation = () => {
             }
             document.getElementById(img).classList.add("active-btn")
             if (img == "basketball"){
-                document.getElementById("ball").style.backgroundImage = "url(img/basketball.png)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/basketball.png)"
             }
             if (img == "volleyball"){
-                document.getElementById("ball").style.backgroundImage = "url(img/volleyball.webp)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/volleyball.webp)"
             }
             if (img == "none"){
                 document.getElementById("ball").style.backgroundImage = "none"
             }
             if (img == "football"){
-                document.getElementById("ball").style.backgroundImage = "url(img/football.jpg)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/football.jpg)"
             }
             if (img == "cartoon"){
-                document.getElementById("ball").style.backgroundImage = "url(img/cartoon.jpg)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/cartoon.jpg)"
             }
             if (img == "logo"){
-                document.getElementById("ball").style.backgroundImage = "url(img/logo.jpg)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/logo.jpg)"
             }
             if (img == "human"){
-                document.getElementById("ball").style.backgroundImage = "url(img/human.jpg)"
+                document.getElementById("ball").style.backgroundImage = "url(./img/human.jpg)"
             }
             
         }
@@ -98,7 +98,7 @@ const Animation = () => {
             borderRadius: "10px",
             margin: "1rem auto",
             backgroundImage:
-                'url("img/boen-sports-flooring-ash-boen-actiflex-stadium-engineered-sports-flooring-32575256101062.webp")',
+                'url("./img/boen-sports-flooring-ash-boen-actiflex-stadium-engineered-sports-flooring-32575256101062.webp")',
             backgroundSize: "cover",
             position: "relative",}} id="field">
                 <div style={{
